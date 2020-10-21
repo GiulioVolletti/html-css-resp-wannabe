@@ -72,6 +72,25 @@ img {
   clear: both;
 }
 
+@media screen and (max-width: 770px) {
+  body {
+    margin: 0;
+    font-size: 40px;
+  }
+  .row {
+    width: 100%;
+  }
+  #steps .row>.left, #steps .row>.central, #steps .row>.right {
+      width: calc(33% - 20px);
+  }
+  .left, .central, .right {
+    padding: 10px;
+  }
+  #lezioni .row>.left, #lezioni .row>.right {
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 420px) {
 
   body{
